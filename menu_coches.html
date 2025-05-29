@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Modelos de Coches</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #8FAADC;
+      color: #333;
+    }
+
+    header {
+      background-color: #1F2F44;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    header .logo {
+      font-size: 1.5em;
+      color: white;
+      font-weight: bold;
+    }
+
+    header .logo span {
+      color: #FF9900;
+    }
+
+    nav a {
+      background-color: #FF9900;
+      color: white;
+      padding: 8px 15px;
+      margin-left: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #cc7a00;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    #sectionLinks {
+      width: 100%;
+      background-color: #1F2F44;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-start;
+    }
+
+    #sectionLinks a {
+      flex: 0 0 auto;
+      padding: 10px 15px;
+      background-color: #FFFFFF;
+      color: #FF9900;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    #sectionLinks a:hover {
+      background-color: #FF9900;
+      color: white;
+      transform: translateY(-3px);
+    }
+
+    #content {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #content img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      border: 2px solid #1F2F44;
+    }
+
+    #content h3 {
+      margin-top: 0;
+      color: #FF9900;
+    }
+
+    footer {
+      background-color: #D3DCE6;
+      color: #555;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      border-top: 1px solid #ccc;
+    }
+
+    @media (max-width: 768px) {
+      #sectionLinks {
+        justify-content: center;
+      }
+
+      #sectionLinks a {
+        flex: 1 1 calc(50% - 10px);
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div align="center"><a href="index.html" style="color: white; text-decoration: none;">
+      SECCION COCHES ERICK </a> </div>
+  </div>
+  <nav></nav>
+</header>
+
+<div class="container">
+  <aside id="sectionLinks">
+    <a href="Toyota_Supra.html">Toyota Supra</a>
+    <a href="Ford_Mustang.html">Ford Mustang</a>
+    <a href="Chevrolet_Camaro.html">Chevrolet Camaro</a>
+    <a href="nissan_gtr.html">Nissan GT-R</a>
+    <a href="BMW_M4.html">BMW M4</a>
+    <a href="Audi_RS5.html">Audi RS5</a>
+    <a href="porche_911.html">Porsche 911</a>
+    <a href="Lamborghini_Huracan.html">Lamborghini Huracán</a>
+    <a href="Ferrari_488.html">Ferrari 488</a>
+    <a href="tesla_modelS.html">Tesla Model S</a>
+  </aside>
+
+  <main id="content">
+    <h2><img src="https://img.remediosdigitales.com/96094b/coches-poster-portada/1366_2000.jpg" alt="COCHESPORTADA" width="1370" height="549"></h2>
+  </main>
+</div>
+
+<footer>
+  © 2025 COCHES ERIK . Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
+
